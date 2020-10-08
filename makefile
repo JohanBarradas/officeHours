@@ -10,7 +10,7 @@ LIBS=-lm -lpthread
 _DEPS = simConstants.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 #separate threads by using different c files 
-_OBJ = professorThread.o OfficeHoursSim.o 
+_OBJ = genClass.o professorThread.o OfficeHoursSim.o 
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 
