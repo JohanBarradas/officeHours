@@ -1,3 +1,11 @@
+#include <pthread.h>
+#include <semaphore.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <assert.h>
 /*** Constants that define parameters of the simulation ***/
 
 #define MAX_SEATS 3        /* Number of seats in the professor's office */
