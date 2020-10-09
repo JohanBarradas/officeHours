@@ -16,20 +16,20 @@
 #define CLASSB 1
 
 /* TODO */
-static int class_counterA; /*Class currently on the office*/
-static int class_counterB;
-static int on_break;
+extern int class_counterA; /*Class currently on the office*/
+extern int class_counterB;
+extern int on_break;
 // 0 is class a, 1 is class b, -1 is empty class
 sem_t mutex; // Mutex to assure only 3 students enter office
 //probably will remove guard or mutex and test if that still works
 sem_t guard; // Mutex to guard segments of the critical sections of class a and b
 
-static int students_in_office;/* Total numbers of students currently in the office */
-static int classa_inoffice;   /* Total numbers of students from class A currently in the office */
-static int classb_inoffice;   /* Total numbers of students from class B in the office */
-static int students_since_break = 0;
-static int classa_total;
-static int classb_total;
+extern int students_in_office;/* Total numbers of students currently in the office */
+extern int classa_inoffice;   /* Total numbers of students from class A currently in the office */
+extern int classb_inoffice;   /* Total numbers of students from class B in the office */
+extern int students_since_break;
+extern int classa_total;
+extern int classb_total;
 
 typedef struct
 {
@@ -37,3 +37,5 @@ typedef struct
   int question_time; // time the student needs to spend with the professor
   int student_id;
 } student_info;
+// initialize has to be on global scope for all files, hence we use the keyword extern 
+extern int initialize(student_info *si, char *filename);

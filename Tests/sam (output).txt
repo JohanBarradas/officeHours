@@ -1,0 +1,237 @@
+Student 2 from class B finishes asking questions and prepares to leave
+Student 2 from class B leaves the office
+students_since_break: 4
+Student 5 from class B enters the office
+Student 5 from class B starts asking questions for 1 minutes
+Student 0 from class B finishes asking questions and prepares to leave
+Student 0 from class B leaves the office
+Student 3 from class B finishes asking questions and prepares to leave
+Student 3 from class B leaves the office
+students_since_break: 5
+Student 8 from class B enters the office
+Student 8 from class B starts asking questions for 1 minutes
+Student 5 from class B finishes asking questions and prepares to leave
+Student 8 from class B finishes asking questions and prepares to leave
+Student 5 from class B leaves the office
+students_since_break: 6
+Student 1 from class A enters the office
+Student 1 from class A starts asking questions for 1 minutes
+students_since_break: 7
+Student 7 from class A enters the office
+Student 7 from class A starts asking questions for 1 minutes
+Student 8 from class B leaves the office
+Student 7 from class A finishes asking questions and prepares to leave
+Student 7 from class A leaves the office
+Student 1 from class A finishes asking questions and prepares to leave
+students_since_break: 8
+Student 10 from class A enters the office
+Student 10 from class A starts asking questions for 1 minutes
+Student 1 from class A leaves the office
+Student 10 from class A finishes asking questions and prepares to leave
+Student 10 from class A leaves the office
+students_since_break: 9
+Student 12 from class A enters the office
+Student 12 from class A starts asking questions for 1 minutes
+Student 12 from class A finishes asking questions and prepares to leave
+Student 12 from class A leaves the office
+students_since_break: 10
+Student 9 from class B enters the office
+Student 9 from class B starts asking questions for 1 minutes
+Student 9 from class B finishes asking questions and prepares to leave
+Student 9 from class B leaves the office
+students_since_break: 11
+Student 14 from class B enters the office
+Student 14 from class B starts asking questions for 1 minutes
+Student 14 from class B finishes asking questions and prepares to leave
+Student 14 from class B leaves the office
+students_since_break: 12
+Student 15 from class A enters the office
+Student 15 from class A starts asking questions for 1 minutes
+Student 15 from class A finishes asking questions and prepares to leave
+Student 15 from class A leaves the office
+students_since_break: 13
+Student 16 from class A enters the office
+Student 16 from class A starts asking questions for 1 minutes
+Student 16 from class A finishes asking questions and prepares to leave
+Student 16 from class A leaves the office
+The professor is taking a break now.
+students_since_break: 1
+Student 4 from class B enters the office
+Student 4 from class B starts asking questions for 1 minutes
+Student 4 from class B finishes asking questions and prepares to leave
+Student 4 from class B leaves the office
+students_since_break: 2
+Student 18 from class A enters the office
+Student 18 from class A starts asking questions for 1 minutes
+Student 18 from class A finishes asking questions and prepares to leave
+Student 18 from class A leaves the office
+students_since_break: 3
+Student 13 from class B enters the office
+Student 13 from class B starts asking questions for 1 minutes
+Student 13 from class B finishes asking questions and prepares to leave
+Student 13 from class B leaves the office
+students_since_break: 4
+Student 17 from class A enters the office
+Student 17 from class A starts asking questions for 1 minutes
+Student 17 from class A finishes asking questions and prepares to leave
+Student 17 from class A leaves the office
+students_since_break: 5
+Student 21 from class A enters the office
+Student 21 from class A starts asking questions for 1 minutes
+Student 21 from class A finishes asking questions and prepares to leave
+Student 21 from class A leaves the office
+students_since_break: 6
+Student 20 from class B enters the office
+Student 20 from class B starts asking questions for 1 minutes
+Student 20 from class B finishes asking questions and prepares to leave
+Student 20 from class B leaves the office
+students_since_break: 7
+Student 23 from class B enters the office
+Student 23 from class B starts asking questions for 1 minutes
+Student 23 from class B finishes asking questions and prepares to leave
+Student 23 from class B leaves the office
+students_since_break: 8
+Student 22 from class B enters the office
+Student 22 from class B starts asking questions for 1 minutes
+Student 22 from class B finishes asking questions and prepares to leave
+Student 22 from class B leaves the office
+students_since_break: 9
+Student 25 from class A enters the office
+Student 25 from class A starts asking questions for 1 minutes
+Student 25 from class A finishes asking questions and prepares to leave
+Student 25 from class A leaves the office
+students_since_break: 10
+Student 24 from class A enters the office
+Student 24 from class A starts asking questions for 1 minutes
+Student 24 from class A finishes asking questions and prepares to leave
+Student 24 from class A leaves the office
+The professor is taking a break now.
+students_since_break: 1
+Student 26 from class A enters the office
+Student 26 from class A starts asking questions for 1 minutes
+Student 26 from class A finishes asking questions and prepares to leave
+Student 26 from class A leaves the office
+students_since_break: 2
+Student 28 from class B enters the office
+Student 28 from class B starts asking questions for 1 minutes
+Student 28 from class B finishes asking questions and prepares to leave
+Student 28 from class B leaves the office
+students_since_break: 3
+Student 29 from class B enters the office
+Student 29 from class B starts asking questions for 1 minutes
+Student 29 from class B finishes asking questions and prepares to leave
+Student 29 from class B leaves the office
+students_since_break: 4
+Student 30 from class B enters the office
+Student 30 from class B starts asking questions for 1 minutes
+Student 30 from class B finishes asking questions and prepares to leave
+Student 30 from class B leaves the office
+students_since_break: 5
+Student 31 from class A enters the office
+Student 31 from class A starts asking questions for 1 minutes
+Student 31 from class A finishes asking questions and prepares to leave
+Student 31 from class A leaves the office
+students_since_break: 6
+Student 19 from class A enters the office
+Student 19 from class A starts asking questions for 1 minutes
+Student 19 from class A finishes asking questions and prepares to leave
+Student 19 from class A leaves the office
+students_since_break: 7
+Student 27 from class B enters the office
+Student 27 from class B starts asking questions for 1 minutes
+Student 27 from class B finishes asking questions and prepares to leave
+Student 27 from class B leaves the office
+students_since_break: 8
+Student 34 from class B enters the office
+Student 34 from class B starts asking questions for 1 minutes
+Student 34 from class B finishes asking questions and prepares to leave
+Student 34 from class B leaves the office
+students_since_break: 9
+Student 33 from class A enters the office
+Student 33 from class A starts asking questions for 1 minutes
+Student 33 from class A finishes asking questions and prepares to leave
+Student 33 from class A leaves the office
+students_since_break: 10
+Student 36 from class B enters the office
+Student 36 from class B starts asking questions for 1 minutes
+Student 36 from class B finishes asking questions and prepares to leave
+Student 36 from class B leaves the office
+The professor is taking a break now.
+students_since_break: 1
+Student 35 from class B enters the office
+Student 35 from class B starts asking questions for 1 minutes
+Student 35 from class B finishes asking questions and prepares to leave
+Student 35 from class B leaves the office
+students_since_break: 2
+Student 38 from class B enters the office
+Student 38 from class B starts asking questions for 1 minutes
+Student 38 from class B finishes asking questions and prepares to leave
+Student 38 from class B leaves the office
+students_since_break: 3
+Student 39 from class A enters the office
+Student 39 from class A starts asking questions for 1 minutes
+Student 39 from class A finishes asking questions and prepares to leave
+Student 39 from class A leaves the office
+students_since_break: 4
+Student 32 from class A enters the office
+Student 32 from class A starts asking questions for 1 minutes
+Student 32 from class A finishes asking questions and prepares to leave
+Student 32 from class A leaves the office
+students_since_break: 5
+Student 37 from class A enters the office
+Student 37 from class A starts asking questions for 1 minutes
+Student 37 from class A finishes asking questions and prepares to leave
+Student 37 from class A leaves the office
+students_since_break: 6
+Student 40 from class B enters the office
+Student 40 from class B starts asking questions for 1 minutes
+Student 40 from class B finishes asking questions and prepares to leave
+Student 40 from class B leaves the office
+students_since_break: 7
+Student 43 from class B enters the office
+Student 43 from class B starts asking questions for 1 minutes
+Student 43 from class B finishes asking questions and prepares to leave
+Student 43 from class B leaves the office
+students_since_break: 8
+Student 42 from class B enters the office
+Student 42 from class B starts asking questions for 1 minutes
+Student 42 from class B finishes asking questions and prepares to leave
+Student 42 from class B leaves the office
+students_since_break: 9
+Student 41 from class B enters the office
+Student 41 from class B starts asking questions for 1 minutes
+Student 41 from class B finishes asking questions and prepares to leave
+Student 41 from class B leaves the office
+students_since_break: 10
+Student 44 from class A enters the office
+Student 44 from class A starts asking questions for 1 minutes
+Student 44 from class A finishes asking questions and prepares to leave
+Student 44 from class A leaves the office
+students_since_break: 11
+Student 46 from class A enters the office
+Student 46 from class A starts asking questions for 1 minutes
+Student 46 from class A finishes asking questions and prepares to leave
+Student 46 from class A leaves the office
+The professor is taking a break now.
+students_since_break: 1
+Student 45 from class B enters the office
+Student 45 from class B starts asking questions for 1 minutes
+Student 45 from class B finishes asking questions and prepares to leave
+Student 45 from class B leaves the office
+students_since_break: 2
+Student 6 from class A enters the office
+Student 6 from class A starts asking questions for 1 minutes
+Student 6 from class A finishes asking questions and prepares to leave
+Student 6 from class A leaves the office
+students_since_break: 3
+Student 47 from class A enters the office
+Student 47 from class A starts asking questions for 1 minutes
+Student 47 from class A finishes asking questions and prepares to leave
+Student 47 from class A leaves the office
+students_since_break: 4
+Student 11 from class B enters the office
+Student 11 from class B starts asking questions for 1 minutes
+Student 11 from class B finishes asking questions and prepares to leave
+Student 11 from class B leaves the office
+Office hour simulation done.
+

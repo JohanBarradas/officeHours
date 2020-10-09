@@ -14,38 +14,16 @@ void class_enter(int classNo);
 int checkPermission(int class); //  may not need prototype for this function
 
 
-// static function can only be accessed inside this file 
-static int initialize(student_info *si, char *filename)
-{
-  students_in_office = 0;
-  classa_inoffice = 0;
-  classb_inoffice = 0;
-  students_since_break = 0;
-  class_counterA = 0; //for 5 class A policy
-  class_counterB = 0; //for 5 class B policy
-  on_break = 0; //variable for checking if prof is on break
-  classb_total = 0; //total of students from class A
-  classa_total = 0;  //total of students from class B
-
-  /* Read in the data file and initialize the student array */
-  FILE *fp;
-
-  if((fp=fopen(filename, "r")) == NULL)
-  {
-    printf("Cannot open input file %s for reading.\n", filename);
-    exit(1);
-  }
-
-  int i = 0;
-  while ( (fscanf(fp, "%d%d\n", &(si[i].arrival_time), &(si[i].question_time))!=EOF)
-           && i < MAX_STUDENTS )
-  {
-    i++;
-  }
-
- fclose(fp);
- return i;
-}
+// define variables for the simulation to work across files 
+int students_in_office = 0;
+int classa_inoffice = 0;
+int classb_inoffice = 0;
+int students_since_break = 0;
+int class_counterA = 0; //for 5 class A policy
+int class_counterB = 0; //for 5 class B policy
+int on_break = 0; //variable for checking if prof is on break
+int classb_total = 0; //total of students from class A
+int classa_total = 0;  //total of students from class B
 
 static void ask_questions(int t)
 {
