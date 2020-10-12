@@ -27,27 +27,6 @@ int on_break = 0; //variable for checking if prof is on break
 int classb_total = 0; //total of students from class A
 int classa_total = 0;  //total of students from class B
 
-static void classa_leave()
-{
-  sem_wait(&guard);
-  students_in_office -= 1;
-  classa_inoffice -= 1;
-  classa_total -= 1; //reduce my total students of class a in line
-  sem_post(&guard);
-
-  sem_post(&mutex); //up semaphore
-}
-
-static void classb_leave()
-{
-  sem_wait(&guard);
-  students_in_office -= 1;
-  classb_inoffice -= 1;
-  classb_total -= 1;//reduce my total students of class b in line
-  sem_post(&guard);
-  sem_post(&mutex); //up semaphore
-}
-
 /*  main functions for student threads  */
 
 void* classa_student(void *si)
@@ -56,7 +35,6 @@ void* classa_student(void *si)
 
   /* enter office */
   class_enter(CLASSA);
-  //classa_enter();
 
   printf("Student %d from class A enters the office\n", s_info->student_id);
 
@@ -76,7 +54,6 @@ void* classa_student(void *si)
 
 
   printf("Student %d from class A leaves the office\n", s_info->student_id);
-  //classa_leave();
   class_leave(CLASSA);
   assert(students_in_office <= MAX_SEATS && students_in_office >= 0);
   assert(classb_inoffice >= 0 && classb_inoffice <= MAX_SEATS);
@@ -90,7 +67,6 @@ void* classb_student(void *si)
   student_info *s_info = (student_info*)si;
 
   /* enter office */
-  //classb_enter();
   
   class_enter(CLASSB);
   
@@ -111,7 +87,6 @@ void* classb_student(void *si)
 
 
   printf("Student %d from class B leaves the office\n", s_info->student_id);
-  //classb_leave();
   class_leave(CLASSB);
   assert(students_in_office <= MAX_SEATS && students_in_office >= 0);
   assert(classb_inoffice >= 0 && classb_inoffice <= MAX_SEATS);
