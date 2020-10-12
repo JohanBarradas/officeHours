@@ -74,6 +74,11 @@ void class_enter(int classNo)
 	}
 	sem_wait(&mutex); //cant enter, have semaphore waiting 
 }
+void ask_questions(int t)
+{
+	sleep(t);
+}
+
 void class_leave(int classNo)
 {
   sem_wait(&guard);

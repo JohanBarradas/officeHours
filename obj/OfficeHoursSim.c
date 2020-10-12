@@ -11,6 +11,8 @@
 //prototyping function, so that we can call the function from a separate c file
 void *professorthread(void *junk);
 void class_enter(int classNo);
+void ask_questions(int t);
+void class_leave(int classNo);
 int checkPermission(int class); //  may not need prototype for this function
 
 
@@ -24,11 +26,6 @@ int class_counterB = 0; //for 5 class B policy
 int on_break = 0; //variable for checking if prof is on break
 int classb_total = 0; //total of students from class A
 int classa_total = 0;  //total of students from class B
-
-static void ask_questions(int t)
-{
-  sleep(t);
-}
 
 static void classa_leave()
 {
@@ -79,7 +76,8 @@ void* classa_student(void *si)
 
 
   printf("Student %d from class A leaves the office\n", s_info->student_id);
-  classa_leave();
+  //classa_leave();
+  class_leave(CLASSA);
   assert(students_in_office <= MAX_SEATS && students_in_office >= 0);
   assert(classb_inoffice >= 0 && classb_inoffice <= MAX_SEATS);
   assert(classa_inoffice >= 0 && classa_inoffice <= MAX_SEATS);
@@ -113,7 +111,8 @@ void* classb_student(void *si)
 
 
   printf("Student %d from class B leaves the office\n", s_info->student_id);
-  classb_leave();
+  //classb_leave();
+  class_leave(CLASSB);
   assert(students_in_office <= MAX_SEATS && students_in_office >= 0);
   assert(classb_inoffice >= 0 && classb_inoffice <= MAX_SEATS);
   assert(classa_inoffice >= 0 && classa_inoffice <= MAX_SEATS);
